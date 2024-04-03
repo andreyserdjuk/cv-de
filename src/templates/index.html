@@ -94,6 +94,17 @@
         </div>
     </div>
 
+    <div class="border-bottom border-1 border-print-1 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Languages</h2>
+        <ul>
+            {{#each languages}}
+            <li>
+                {{ this }}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+
     <!-- <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h3 class="h2 screen mb-4">Skills</h3>
         <div class="row align-items-center">
@@ -110,7 +121,7 @@
         </div>
     </div> -->
 
-    <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+    <div class="border-bottom border-1 border-print-1 border-dark mb-5 pb-5 pb-print-0 mb-print-2">
         <p>
 I'm full-stack developer with focus on backend. I work mainly on enterprice-level solutions 10+ years.
 <p>
@@ -141,7 +152,7 @@ Now I develop microservice-based logistic system at Instafreight GmbH.
 
                 <p>
                     {{#each skills }}
-                    <span class="badge text-body border border-1">{{ this }}</span>
+                    <span class="badge black-badge">{{ this }}</span>
                     {{/each}}
                 </p>
             </div>
@@ -154,11 +165,11 @@ Now I develop microservice-based logistic system at Instafreight GmbH.
         <div>
             {{#each education}}
             <div class="row d-block d-md-flex">
-                <div class="col-md-2 pt-1">
+                <div class="col-md-2">
                     {{ period }}
                 </div>
                 <div class="col-md-10">
-                    <p class="fs-5 fw-normal">{{ title }}</p>
+                    <p>{{ title }}</p>
                 </div>
             </div>
             {{/each}}

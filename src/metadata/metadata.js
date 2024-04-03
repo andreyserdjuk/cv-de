@@ -89,5 +89,10 @@ Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development 
       period: '09/1991 - 06/2000',
       title: 'Schule 6'
     }
+  ],
+  languages: [
+    'Deutsch – B1 (ich besuche derzeit den Deutschkurs B1)',
+    'Englisch – B2',
+    'Russisch, Ukrainisch – Muttersprache',
   ]
 };

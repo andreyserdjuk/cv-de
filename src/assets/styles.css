@@ -17,10 +17,18 @@
     border: 0;
 }
 
-@media (max-width: 575px) { 
+/* @media (max-width: 575px) { 
     .logo {
         width: 130px;
     }
+} */
+
+.black-badge {
+    color: black;
+    /* border: 1px solid black; */
+    border-radius: 0;
+    font-family: monospace;
+    background-color: #e0e0e0;
 }
 
 a {
