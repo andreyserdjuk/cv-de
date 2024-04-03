@@ -3,6 +3,7 @@ module.exports = {
   title: 'Senior Software Engineer',
   subtitle: 'at <a href="https://www.instafreight.de/en">Instafreight GmbH</a>',
   facts: [
+    '<a href="https://maps.app.goo.gl/BQPhvkPaDeLMpbQU9"><i class="fa fa-home fact-icon"></i>Berlin, Lichtenrade</a>',
     `<a href="https://www.linkedin.com/in/andrii-serdiuk/"><i class="fa-brands bi-linkedin fact-icon"></i>linkedin.com/in/andrii-serdiuk/</a>`,
     `<a href="https://github.com/andreyserdjuk"><i class="fa-brands bi-github fact-icon"></i>github.com/andreyserdjuk</a>`,
     '<a href="mailto:ase6120@gmail.com"><i class="fa bi-envelope fact-icon"></i>ase6120@gmail.com</a>',
@@ -17,7 +18,7 @@ module.exports = {
       period: '2021-2024',
       skills: ['PHP', 'Symfony Framework', 'PostgreSQL', 'React.js', 'Phalcon Framework', 'Nginx', 'Apache Kafka', 'AWS'],
       contents: `
-Implementing new features, decomposition legacy monolytic system to small microservices.
+Development of B2B Logistic system, decomposition legacy monolytic system to small microservices.
 `
     },
     {
@@ -58,8 +59,35 @@ Supporting media-exchange platform built with multiple microservices based on PH
   I wrote service REST API using Doctrine ORM, service which controlled replication of data (for our own replication solution) and bridging of data between different systems, etc.
   Work with Redmine, Git, Bash (wrote scripts), Linux, FreeBSD, PHPUnit etc. Development of deployment scripts.
   `
+    },
+    {
+      title: 'Web-Developer',
+      company: 'IT-outsourcing',
+      period: '06/2011 – 01/2012',
+      skills: ['PHP5', 'MySQL', 'Zend Framework 1'],
+      contents: `
+Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development of solutions for interaction with tour operators API’s.
+  `
     }
   ],
   experience: [
+  ],
+  education: [
+    {
+      period: '09/2017 - 06/2019',
+      title: 'O. Dovzhenko Hlukhiv National Pedagogical University'
+    },
+    {
+      period: '09/2005 – 06/2010',
+      title: 'BOGOMOLETS NATIONAL MEDICAL UNIVERSITY'
+    },
+    {
+      period: '09/2000 - 06/2004',
+      title: 'Hlukhiv Professional Medical College'
+    },
+    {
+      period: '09/1991 - 06/2000',
+      title: 'Schule 6'
+    }
   ]
 };

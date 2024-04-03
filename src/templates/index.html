@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="container page">
-    <div class="border-bottom border-1 border-print-0 border-dark mb-3 pb-5 pb-print-0 mb-print-1">
+    <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <div class="row">
             <!-- image + name -->
             <div class="
@@ -37,7 +37,7 @@
                 <div class="
                 col-4
                 col-print-4
-                pe-3
+                pe-4
                 col-lg-4
                 col-md-3
                 col-sm-4
@@ -81,7 +81,7 @@
             </div>
 
             <!-- contacts -->
-            <div class="col-12 col-print-5 d-none d-lg-block d-md-block d-sm-none col-md-4 col-sm-12 offset-lg-1 col-lg-5">
+            <div class="col-12 col-print-5 d-none d-lg-block d-md-block d-sm-none col-md-4 col-sm-12 offset-lg-0 col-lg-6">
                 <h3 class="list-padding mt-2">Contacts</h3>
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
@@ -110,11 +110,11 @@
         </div>
     </div> -->
 
-    <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-print-0 mb-print-1">
+    <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <p>
 I'm full-stack developer with focus on backend. I work mainly on enterprice-level solutions 10+ years.
 <p>
-    <b>Now</b> I develop microservice-based logistic system at Instafreight GmbH.
+Now I develop microservice-based logistic system at Instafreight GmbH.
 </p>
 <p>
     <b>Last used tech:</b> PHP 7-8, Bash, Typescript, Phalcon, Symfony 5-6, PHPunit, PHPStan, CodeShiffer, Kafka, Redis, Postgres, AWS ECS, Git, Docker, Github actions (deploy on AWS, running test etc.).
@@ -148,11 +148,22 @@ I'm full-stack developer with focus on backend. I work mainly on enterprice-leve
         </div>
         {{/each}}
     </div>
-<!-- 
-    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+
+    <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div></div>
-    </div> -->
+        <div>
+            {{#each education}}
+            <div class="row d-block d-md-flex">
+                <div class="col-md-2 pt-1">
+                    {{ period }}
+                </div>
+                <div class="col-md-10">
+                    <p class="fs-5 fw-normal">{{ title }}</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
 
     <!-- <h2 class="mb-4">Additional Experience</h2>
 
