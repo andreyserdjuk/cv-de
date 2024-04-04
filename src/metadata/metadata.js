@@ -18,7 +18,11 @@ module.exports = {
       period: '2021-2024',
       skills: ['PHP', 'Symfony Framework', 'PostgreSQL', 'React.js', 'Phalcon Framework', 'Nginx', 'Apache Kafka', 'AWS'],
       contents: `
-Development of B2B Logistic system, decomposition legacy monolytic system to small microservices.
+🔨 Decomposition of the B2B logistics monolithic system writtein on Phalcon into Symfony microservices.   
+⚙️ Development of libraries and introducing data exchange contracts.   
+📫 Integration with third-party logistic/delivery API's: REST, BORD512, EDI Edifact.   
+💻 Maintenance of UI: React, Redux, TypeScript.   
+🚀 Writing deployment scenarios to AWS using Github actions, Docker, Bash.
 `
     },
     {
