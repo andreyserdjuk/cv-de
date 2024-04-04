@@ -67,7 +67,7 @@ Supporting media-exchange platform built with multiple microservices based on PH
     {
       title: 'Web-Developer',
       company: 'IT-outsourcing',
-      period: '06/2011 – 01/2012',
+      period: '06/2011 - 01/2012',
       skills: ['PHP5', 'MySQL', 'Zend Framework 1'],
       contents: `
 Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development of solutions for interaction with tour operators API’s.
@@ -82,7 +82,7 @@ Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development 
       title: 'O. Dovzhenko Hlukhiv National Pedagogical University'
     },
     {
-      period: '09/2005 – 06/2010',
+      period: '09/2005 - 06/2010',
       title: 'BOGOMOLETS NATIONAL MEDICAL UNIVERSITY'
     },
     {
@@ -95,8 +95,8 @@ Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development 
     }
   ],
   languages: [
-    'Deutsch – B1 (ich besuche derzeit den Deutschkurs B1)',
-    'Englisch – B2',
-    'Russisch, Ukrainisch – Muttersprache',
+    'Deutch - B1 (ich besuche derzeit den Deutschkurs B1)',
+    'English - B2',
+    'Russian, Ukrainian - native',
   ]
 };
