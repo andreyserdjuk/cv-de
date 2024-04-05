@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Andrii Serdiuk',
-  title: 'Senior Software Engineer',
+  title: 'Senior Softwareentwickler',
   subtitle: 'at <a href="https://www.instafreight.de/en">Instafreight GmbH</a>',
   facts: [
     '<a href="https://maps.app.goo.gl/BQPhvkPaDeLMpbQU9"><i class="fa fa-home fact-icon"></i>Berlin, Lichtenrade</a>',
@@ -13,64 +13,64 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Senior Software Engineer',
+      title: 'Senior Softwareentwickler',
       company: 'Instafreight GmbH',
       period: '2021-2024',
       skills: ['PHP', 'Symfony Framework', 'PostgreSQL', 'React.js', 'Phalcon Framework', 'Nginx', 'Apache Kafka', 'AWS'],
       contents: `
-🔨 Decomposition of the B2B logistics monolithic system writtein on Phalcon into Symfony microservices.   
-⚙️ Development of libraries and introducing data exchange contracts.   
-📫 Integration with third-party logistic/delivery API's: REST, BORD512, EDI Edifact.   
-💻 Maintenance of UI: React, Redux, TypeScript.   
-🚀 Writing deployment scenarios to AWS using Github actions, Docker, Bash.
+🔨 Zerlegung des auf Phalcon-basiert monolithischen B2B-Logistiksystems in Symfony-Microservices.   
+⚙️ Bibliotheken ersetellen und Einführung von Datenaustauschverträgen.   
+📫 Integration mit Logistik-/Liefer-APIs von Drittanbietern: REST, BORD512, EDI Edifact.   
+💻 Wartung der Benutzeroberfläche: React, Redux, TypeScript.   
+🚀 Schreiben von Bereitstellungsszenarien für AWS mithilfe von Github-Aktionen, Docker, Bash.
 `
     },
     {
-      title: 'Senior Full Stack Engineer',
+      title: 'Senior Full Stack Entwickler',
       company: 'Evolvice Team GmbH',
       period: '2019-2020 ',
       skills: ['PHP', 'Symfony Framework', 'MySQL', 'Nginx', 'Elasticsearch', 'Vagrant', 'Docker', 'Redis', 'Angular', 'Apache Kafka'],
       contents: `
-Backend: develop and support GraphQL API’s in multi-microservice SMM activity project.  
-Front-end: develop single-page application on Angular 6+, rxjs, ngrx, Ramda, angular-bootstrap.
+Backend: Entwicklung und Unterstützung von GraphQL-APIs in Multi-Microservice-SMM-Projekten.   
+Frontend: Anwendung auf Angular 6+, Rxjs, NgRx, Ramda, Angular-Bootstrap entwickeln.
 `
     },
     {
-      title: 'Full-stack Developer',
+      title: 'Senior Full Stack Entwickler',
       company: 'Intersog',
       period: '2017-2019',
       skills: ['PHP 7', 'AWS (SQS, SNS)', 'Docker', 'RabbitMQ', 'MySQL', 'Java 8 (Jetty, Hibernate, Maven)', 'Docker'],
       contents: `
-Supporting media-exchange platform built with multiple microservices based on PHP, NodeJS, Python and Java. Writing integration workers.
+Unterstützende Medienaustauschplattform mit mehreren Microservices basierend auf PHP, NodeJS, Python und Java. Scheiben der Integrationshelfer.
 `
     },
     {
-      title: 'Senior PHP Developer',
+      title: 'Senior PHP Entwickler',
       company: 'Netvertise Ltd.',
       period: '2015-2017',
       skills: ['PHP', 'Symfony Framework', 'MySQL', 'Nginx', 'Docker'],
       contents: `
-  Development on Symfony 2 and Phalconphp-based systems, which perform data analysis, payments, parcel delivery.
+Entwicklung auf Symfony 2+ und Phalconphp-basierten Systemen, die Datenanalyse, Zahlungen und Paketzustellung.
   `
     },
     {
-      title: 'PHP Programmer',
+      title: 'PHP Entwickler',
       company: 'Autolux',
       period: '2013-2015',
       skills: ['PHP5.3', 'MySQL', 'Nginx'],
       contents: `
-  Full-cycle development of a shipment delivery system and logistic solutions for it.
-  I wrote service REST API using Doctrine ORM, service which controlled replication of data (for our own replication solution) and bridging of data between different systems, etc.
-  Work with Redmine, Git, Bash (wrote scripts), Linux, FreeBSD, PHPUnit etc. Development of deployment scripts.
+Vollständige Entwicklung eines Versandliefersystems und Logistiklösungen dafür.   
+Entwicklung der REST-API, Datenreplikations-Worker und Überbrückung von Daten zwischen verschiedenen Systemen usw.   
+Arbeitete mit Redmine, Git, Bash, Linux, FreeBSD, PHPUnit usw. Entwicklung von Bereitstellungsskripten.
   `
     },
     {
-      title: 'Web-Developer',
+      title: 'Web-Entwickler',
       company: 'IT-outsourcing',
       period: '06/2011 - 01/2012',
       skills: ['PHP5', 'MySQL', 'Zend Framework 1'],
       contents: `
-Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development of solutions for interaction with tour operators API’s.
+Unterstützung der Unternehmenswebsite: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Entwicklung von Lösungen für die Interaktion mit Reiseveranstalter-APIs.
   `
     }
   ],
@@ -96,7 +96,7 @@ Company site support: Zend Framework 1.1, JQuery, MySQL, HTML+CSS3. Development 
   ],
   languages: [
     'Deutsch - B1 (ich besuche derzeit den Deutschkurs B1)',
-    'Englisch - B2',
+    'Englisch - B2 (I work in English-speaking environment)',
     'Russisch, Ukrainisch - Muttersprache',
   ]
 };

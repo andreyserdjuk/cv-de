@@ -57,13 +57,13 @@
                     </div>
                     <div>
                         <div>
-                            <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                            <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                            <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>PDF-Version herunterladen</a></span>
+                            <span class="print">Die aktuelle Version des Lebenslaufs finden Sie unter <a href="{{ baseUrl }}"
                                 class="text-nowrap"><i
                                 class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                         </div>
                         <div class="mb-2">
-                            <time datetime="{{ updated }}" class="small">Last update: {{ updated }}</time>
+                            <time datetime="{{ updated }}" class="small">Letzte Aktualisierung: {{ updated }}</time>
                         </div>
                     </div>
                     
@@ -71,7 +71,7 @@
 
                     <!-- contacts -->
                     <div class="col-12 d-block d-lg-none d-md-none d-sm-block d-xs-block col-md-6 col-sm-12 col-lg-5">
-                        <h3 class="list-padding">Contacts</h3>
+                        <h3 class="list-padding">Kontakte</h3>
                         <ul class="list-group list-group-flush">
                             {{#each facts}}
                             <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -85,7 +85,7 @@
 
             <!-- contacts -->
             <div class="col-12 col-print-5 d-none d-lg-block d-md-block d-sm-none col-md-4 col-sm-12 offset-lg-0 col-lg-6">
-                <h3 class="list-padding mt-2">Contacts</h3>
+                <h3 class="list-padding mt-2">Kontakte</h3>
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -98,7 +98,7 @@
     </div>
 
     <div class="border-bottom border-1 border-print-1 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Languages</h2>
+        <h2 class="mb-4">Sprachen</h2>
         <ul>
             {{#each languages}}
             <li>
@@ -126,22 +126,27 @@
 
     <div class="border-bottom border-1 border-print-1 border-dark mb-5 pb-5 pb-print-0 mb-print-2">
         <p>
-I'm full-stack developer with focus on backend. I work mainly on enterprice-level solutions 10+ years.
+Ich bin Full-Stack-Entwickler mit Fokus auf Backend. Ich arbeite seit mehr als 10 Jahren hauptsächlich an Lösungen auf Unternehmensebene.
 <p>
-Now I develop microservice-based logistic system at Instafreight GmbH.
+Jetzt entwickle ich ein auf Mikroservices basierendes Logistiksystem bei der Instafreight GmbH, wo ich gearbeitet habe an:
 </p>
+<ul>
+    <li>Zerlegung des auf Phalcon geschriebenen monolithischen B2B-Logistiksystems in Symfony-Microservices</li>
+    <li>Integration mit Logistik-/Liefer-APIs von Drittanbietern: REST, BORD512, EDI Edifact</li>
+    <li>Abdeckung aller oben genannten durch Tests und Vorbereitung der Bereitstellungsumgebung, Container usw.</li>
+</ul>
 <p>
-    <b>Last used tech:</b> PHP 7-8, Bash, Typescript, Phalcon, Symfony 5-6, PHPunit, PHPStan, CodeShiffer, Kafka, Redis, Postgres, AWS ECS, Git, Docker, Github actions (deploy on AWS, running test etc.).
+<b>Zuletzt verwendete Technologie:</b> PHP 7–8, Bash, Typescript, Phalcon, Symfony 5–6, PHPunit, PHPStan, CodeShiffer, Kafka, Redis, Postgres, AWS ECS, Git, Docker, Github-Aktionen (Bereitstellung auf AWS, Ausführen von Tests usw.) ).
 </p>
 
 <p>
-    I know Python enough to analyze datasets with pandas, numpy and understand projects like <a href="https://hummingbot.org/">hummingbot</a>, had some experience with Java 8+ (Jetty, Hibernate, Maven).
+Ich verwende Python, um Datensätze mit Pandas und Numpy zu analysieren und kann mit Projekten wie <a href="https://hummingbot.org/">hummingbot</a> arbeiten, hatte einige Erfahrung mit Java 8+ (Jetty, Hibernate, Maven).
 </p>
         </pre>
     </div>
 
     <div class="border-bottom border-1 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-5">
-        <h2 class="mb-4">Professional Experience</h2>
+        <h2 class="mb-4">Berufserfahrung</h2>
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-2 pt-1">
@@ -164,7 +169,7 @@ Now I develop microservice-based logistic system at Instafreight GmbH.
     </div>
 
     <div class="mb-5 pb-5">
-        <h2 class="mb-4">Education</h2>
+        <h2 class="mb-4">Bildung</h2>
         <div>
             {{#each education}}
             <div class="row d-block d-md-flex">
