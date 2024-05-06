@@ -95,7 +95,7 @@ Unterstützung der Unternehmenswebsite: Zend Framework 1.1, JQuery, MySQL, HTML+
     }
   ],
   languages: [
-    'Deutsch - B1 (ich besuche derzeit den Deutschkurs B1)',
+    'Deutsch - B1',
     'Englisch - B2 (I work in English-speaking environment)',
     'Russisch, Ukrainisch - Muttersprache',
   ]
